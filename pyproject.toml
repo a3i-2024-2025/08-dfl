@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "08-dfl"
+version = "0.1.0"
+description = ""
+authors = ["Michele Lombardi <michele.lombardi2@unibo.it>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^6"
+pandas = "^2.2.3"
+tensorflow = "^2.18.0"
+matplotlib = "^3.9.3"
+ortools = "^9.11.4210"
+rise = "^5.7.1"
+pydot = "^3.0.3"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.2"
+tensorflow-probability = "^0.25.0"
+tf-keras = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
